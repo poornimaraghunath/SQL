@@ -11,6 +11,14 @@
    6. TIMESTAMP     -  YYYY-MM-DD  HH:MM:SS
 
 
-   CREATE TABLE student - It is used to create the table in MYSQL database
+  1. CREATE TABLE student - It is used to create the table in MYSQL database
 
-   Describe student : It is used to describe the table
+  2. Describe student : It is used to describe the table
+
+  3. DROP TABLE student : It is used to delete the table
+
+  4. ALTER TABLE student ADD gpa : it is used to alter the table and the column
+
+  5. ALTER TABLE student DROP COLUMN gpa; - This helps to delete the column from the student table
+
+  6. INSERT INTO student values(1,'jack','biology') ; - This helps to insert the values into the student table
